@@ -1,0 +1,103 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors - Pinia Style (Yellow-Green Theme)
+ * -------------------------------------------------------------------------- */
+
+:root {
+  /* Brand colors - Pinia inspired yellow-green */
+  --vp-c-brand-1: #ecb602;
+  --vp-c-brand-2: #ffd859;
+  --vp-c-brand-3: #ecb602;
+  --vp-c-brand-soft: rgba(236, 182, 2, 0.14);
+
+  /* Background colors */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f6f6f7;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f6f6f7;
+}
+
+.dark {
+  /* Brand colors for dark mode */
+  --vp-c-brand-1: #ffd859;
+  --vp-c-brand-2: #ecb602;
+  --vp-c-brand-3: #ffd859;
+  --vp-c-brand-soft: rgba(255, 216, 89, 0.16);
+
+  /* Background colors for dark mode */
+  --vp-c-bg: #1b1b1f;
+  --vp-c-bg-alt: #161618;
+  --vp-c-bg-elv: #202127;
+  --vp-c-bg-soft: #202127;
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: #fff;
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: #fff;
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #ecb602 30%,
+    #ffd859
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #ecb602 50%,
+    #ffd859 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
