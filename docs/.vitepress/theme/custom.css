@@ -101,3 +101,42 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+/**
+ * Component: Inline Code
+ * -------------------------------------------------------------------------- */
+
+/* 保持行内代码使用 VitePress 默认颜色，不受主题颜色影响 */
+.vp-doc :not(pre) > code {
+  color: var(--vp-c-text-code) !important;
+}
+
+/* 链接中的行内代码保持默认样式 */
+.vp-doc a > code {
+  color: var(--vp-c-brand-1) !important;
+}
+
+/**
+ * Component: Links
+ * -------------------------------------------------------------------------- */
+
+/* 文档中的链接颜色改为绿色 */
+.vp-doc a {
+  color: #42b883;
+  text-decoration-color: #42b883;
+}
+
+.vp-doc a:hover {
+  color: #42d392;
+  text-decoration-color: #42d392;
+}
+
+.dark .vp-doc a {
+  color: #42d392;
+  text-decoration-color: #42d392;
+}
+
+.dark .vp-doc a:hover {
+  color: #35c189;
+  text-decoration-color: #35c189;
+}
