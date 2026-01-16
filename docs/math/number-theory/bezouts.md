@@ -1,8 +1,4 @@
-# 裴蜀定理
-
-![](C:\Users\黄书恒1\Pictures\Code\屏幕截图 2024-05-24 200252.png)
-
-![](C:\Users\黄书恒1\Pictures\Code\屏幕截图 2024-05-24 200544.png)
+# 裴蠩定理
 
 ```c++
 #include<iostream>
@@ -22,4 +18,3 @@ int main(){
 }
 
 ```
-
