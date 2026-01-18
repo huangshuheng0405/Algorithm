@@ -220,7 +220,7 @@ export default defineConfig({
                 },
                 {
                   text: 'NOI2002-银河英雄传说',
-                  link: '/dataStructure/DisjointSetUnion(DSU）/NOI2002-银河英雄传说'
+                  link: '/dataStructure/DisjointSetUnion(DSU）/NOI2002 银河英雄传说'
                 }
               ]
             },
@@ -341,7 +341,7 @@ export default defineConfig({
                 },
                 {
                   text: '[NOIP1999 提高组] 导弹拦截',
-                  link: '/dynamicProgramming/linear/[NOIP1999 提高组] 导弹拦截'
+                  link: '/dynamicProgramming/linear/NOIP1999 提高组 导弹拦截'
                 }
               ]
             },
@@ -393,7 +393,7 @@ export default defineConfig({
               items: [
                 {
                   text: 'NOI1995-石子合并',
-                  link: '/dynamicProgramming/interval/NOI1995-石子合并'
+                  link: '/dynamicProgramming/interval/NOI1995 石子合并'
                 },
                 {
                   text: '[NOIP2006 提高组] 能量项链',
@@ -416,11 +416,11 @@ export default defineConfig({
               items: [
                 {
                   text: 'SCOI2005-互不侵犯',
-                  link: '/dynamicProgramming/state/SCOI2005-互不侵犯'
+                  link: '/dynamicProgramming/state/SCOI2005 互不侵犯'
                 },
                 {
                   text: '[USACO06NOV] Corn Fields G',
-                  link: '/dynamicProgramming/state/[USACO06NOV] Corn Fields G'
+                  link: '/dynamicProgramming/state/USACO06NOV Corn Fields G'
                 }
               ]
             },
@@ -438,11 +438,11 @@ export default defineConfig({
                 },
                 {
                   text: 'SCOI2009-windy数',
-                  link: '/dynamicProgramming/number/SCOI2009-windy数'
+                  link: '/dynamicProgramming/number/SCOI2009 windy 数'
                 },
                 {
                   text: 'ZJOI2010-数字计数',
-                  link: '/dynamicProgramming/number/ZJOI2010-数字计数'
+                  link: '/dynamicProgramming/number/ZJOI2010 数字计数'
                 }
               ]
             },
@@ -532,7 +532,10 @@ export default defineConfig({
                   text: 'Kruskal',
                   link: '/graph/Minimal Spanning Tree(MST)/Kruskal'
                 },
-                { text: 'Prim', link: '/graph/Minimal Spanning Tree(MST)/Prim' }
+                {
+                  text: 'Prim',
+                  link: '/graph/Minimal Spanning Tree(MST)/Prim'
+                }
               ]
             },
             {
@@ -541,28 +544,28 @@ export default defineConfig({
               items: [
                 {
                   text: '最近公共祖先(LCA)',
-                  link: "/graph/tree's problem/Lowest Common Ancestor(LCA)"
+                  link: '/graph/tree‘s problem/Lowest Common Ancestor(LCA)'
                 },
                 {
                   text: '树的直径',
-                  link: "/graph/tree's problem/Tree-diameter"
+                  link: '/graph/tree‘s problem/Tree-diameter'
                 },
                 {
                   text: '树的重心',
-                  link: "/graph/tree's problem/Tree-centroid"
+                  link: '/graph/tree‘s problem/Tree-centroid'
                 },
-                { text: '树链剖分', link: "/graph/tree's problem/HLD" },
+                { text: '树链剖分', link: '/graph/tree‘s problem/HLD' },
                 {
                   text: 'DFS序+树状数组',
-                  link: "/graph/tree's problem/DFS序+树状数组"
+                  link: '/graph/tree‘s problem/DFS序+树状数组'
                 },
                 {
                   text: '求先序排列',
-                  link: "/graph/tree's problem/求先序排列"
+                  link: '/graph/tree‘s problem/求先序排列'
                 },
                 {
                   text: '[SDOI2013] 直径',
-                  link: "/graph/tree's problem/[SDOI2013] 直径"
+                  link: '/graph/tree‘s problem/SDOI2013 直径'
                 }
               ]
             },
@@ -790,7 +793,10 @@ export default defineConfig({
                 { text: 'set', link: '/misc/Standard Template Library/set' },
                 { text: 'map', link: '/misc/Standard Template Library/map' },
                 { text: 'pair', link: '/misc/Standard Template Library/pair' },
-                { text: 'tuple', link: '/misc/Standard Template Library/tuple' }
+                {
+                  text: 'tuple',
+                  link: '/misc/Standard Template Library/tuple'
+                }
               ]
             }
           ]
