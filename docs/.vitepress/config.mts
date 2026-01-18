@@ -219,8 +219,8 @@ export default defineConfig({
                   link: '/dataStructure/DisjointSetUnion(DSU）/扩展域并查集'
                 },
                 {
-                  text: '[NOI2002] 银河英雄传说',
-                  link: '/dataStructure/DisjointSetUnion(DSU）/[NOI2002] 银河英雄传说'
+                  text: 'NOI2002-银河英雄传说',
+                  link: '/dataStructure/DisjointSetUnion(DSU）/NOI2002-银河英雄传说'
                 }
               ]
             },
@@ -392,12 +392,12 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {
-                  text: '[NOI1995] 石子合并',
-                  link: '/dynamicProgramming/interval/[NOI1995] 石子合并'
+                  text: 'NOI1995-石子合并',
+                  link: '/dynamicProgramming/interval/NOI1995-石子合并'
                 },
                 {
                   text: '[NOIP2006 提高组] 能量项链',
-                  link: '/dynamicProgramming/interval/[NOIP2006 提高组] 能量项链'
+                  link: '/dynamicProgramming/interval/NOIP2006 提高组 能量项链'
                 }
               ]
             },
@@ -415,8 +415,8 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {
-                  text: '[SCOI2005] 互不侵犯',
-                  link: '/dynamicProgramming/state/[SCOI2005] 互不侵犯'
+                  text: 'SCOI2005-互不侵犯',
+                  link: '/dynamicProgramming/state/SCOI2005-互不侵犯'
                 },
                 {
                   text: '[USACO06NOV] Corn Fields G',
@@ -437,12 +437,12 @@ export default defineConfig({
                   link: '/dynamicProgramming/number/数字游戏'
                 },
                 {
-                  text: '[SCOI2009] windy 数',
-                  link: '/dynamicProgramming/number/[SCOI2009] windy 数'
+                  text: 'SCOI2009-windy数',
+                  link: '/dynamicProgramming/number/SCOI2009-windy数'
                 },
                 {
-                  text: '[ZJOI2010] 数字计数',
-                  link: '/dynamicProgramming/number/[ZJOI2010] 数字计数'
+                  text: 'ZJOI2010-数字计数',
+                  link: '/dynamicProgramming/number/ZJOI2010-数字计数'
                 }
               ]
             },
